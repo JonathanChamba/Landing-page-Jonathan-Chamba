@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Chamba | Platform Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="container nav-content">
+            <a href="#" class="logo">Jonathan<span class="highlight">.</span></a>
+            <nav class="nav-links">
+                <a href="#habilidades">Habilidades</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#educacion">Educación</a>
+                <a href="Assets/files/Jonathan_Chamba_CV.pdf" class="btn btn-outline btn-download" download>
+                    <i class="fa-solid fa-file-pdf"></i> Descargar CV
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <span class="hero-badge mono fade-up">>_ Platform Engineer</span>
+            <h1 class="hero-title fade-up" style="transition-delay: 100ms;">
+                Hola, soy <span class="highlight">Jonathan Chamba</span>.<br>
+                Ingeniero de Plataformas.
+            </h1>
+            <p class="hero-desc fade-up" style="transition-delay: 200ms;">
+                Especializado en automatización de infraestructura, DevOps y SRE para entornos cloud de alto rendimiento. Construyo infraestructuras resilientes, escalables y seguras en AWS y GCP.
+            </p>
+            <div class="hero-actions fade-up" style="transition-delay: 300ms;">
+                <a href="#experiencia" class="btn btn-primary">Ver Experiencia</a>
+                <a href="Assets/files/Jonathan_Chamba_CV.pdf" class="btn btn-outline" download>Descargar CV</a>
+            </div>
+            <div class="hero-contact fade-up" style="transition-delay: 400ms;">
+                <span><i class="fa-solid fa-location-dot"></i> Quito, Ecuador</span>
+                <span><i class="fa-solid fa-envelope"></i> jonathan.chamba@email.com</span>
+                <span><i class="fa-brands fa-linkedin"></i> linkedin.com/in/jonathan-chamba</span>
+                <span><i class="fa-brands fa-github"></i> github.com/jonathanchamba</span>
+            </div>
+            <div class="hero-image-wrapper fade-up" style="transition-delay: 500ms;">
+                <img src="Assets/images/jc.png" alt="Foto de Jonathan Chamba" class="hero-profile-img" onerror="this.src='https://placehold.co/350x350/121e19/10b981?text=JC'">
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title fade-up">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-up">
+                    <i class="fa-brands fa-aws skill-icon"></i>
+                    <h3>Infraestructura Cloud</h3>
+                    <p>AWS (EKS, EC2, S3, IAM, CloudFront, VPC), GCP (GKE, Cloud Run, IAM)</p>
+                </div>
+                <div class="skill-card fade-up" style="transition-delay: 100ms;">
+                    <i class="fa-solid fa-code-branch skill-icon"></i>
+                    <h3>Infraestructura como Código</h3>
+                    <p>Terraform (custom modules, remote state, drift detection), Terragrunt, CloudFormation.</p>
+                </div>
+                <div class="skill-card fade-up" style="transition-delay: 200ms;">
+                    <i class="fa-brands fa-docker skill-icon"></i>
+                    <h3>Contenedores & Orquestación</h3>
+                    <p>Kubernetes (K8s), Helm, Docker, Containerd. Administración de clusters EKS/GKE.</p>
+                </div>
+                <div class="skill-card fade-up" style="transition-delay: 300ms;">
+                    <i class="fa-solid fa-infinity skill-icon"></i>
+                    <h3>CI/CD & Scripting</h3>
+                    <p>GitHub Actions, ArgoCD, GitLab CI. Automatización con Python, Go y Bash.</p>
+                </div>
+                <div class="skill-card fade-up" style="transition-delay: 400ms;">
+                    <i class="fa-solid fa-chart-pie skill-icon"></i>
+                    <h3>Observabilidad</h3>
+                    <p>Prometheus, Grafana, Datadog, AWS CloudWatch, Open Telemetry.</p>
+                </div>
+                <div class="skill-card fade-up" style="transition-delay: 500ms;">
+                    <i class="fa-solid fa-shield-halved skill-icon"></i>
+                    <h3>Seguridad & Redes</h3>
+                    <p>Service Mesh (Istio), Secrets Management (HashiCorp Vault), IAM, TLS/SSL, DNS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Experiencia Laboral</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date mono">Enero 2024 - Presente</span>
+                        <h3>Ingeniero de Plataformas</h3>
+                        <h4>Tech Cloud Solutions S.A. | Remoto (Quito, Ecuador)</h4>
+                        <ul class="timeline-list">
+                            <li>Diseño y administro clústeres multi-región de Kubernetes (EKS/GKE) en producción para aplicaciones enterprise, garantizando un 99.99% de alta disponibilidad.</li>
+                            <li>Desarrollo módulos personalizados en Terraform e implemento pipelines automatizados para la detección y corrección de cambios no autorizados (drift detection), reduciendo el tiempo de aprovisionamiento en un 40%.</li>
+                            <li>Creo y optimizo flujos de trabajo de CI/CD integrados con GitHub Actions, acelerando los despliegues de 45 minutos a menos de 10 minutos.</li>
+                            <li>Automatizo tareas operativas recurrentes y aprovisionamiento mediante scripts en Python y Go.</li>
+                            <li>Implemento el ecosistema de observabilidad con Prometheus y Grafana, disminuyendo el MTTR en un 35%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date mono">Junio 2022 – Diciembre 2023</span>
+                        <h3>Ingeniero DevOps / SRE</h3>
+                        <h4>Innovación Digital Corp. | Quito, Ecuador</h4>
+                        <ul class="timeline-list">
+                            <li>Migré con éxito la infraestructura heredada hacia la nube de AWS utilizando código en Terraform, reduciendo en un 20% los costos operativos.</li>
+                            <li>Configuré y desplegué aplicaciones contenedorizadas mediante Kubernetes y Helm charts, asegurando despliegues zero-downtime.</li>
+                            <li>Gestioné políticas de seguridad y control de acceso integrando HashiCorp Vault y roles granulares de AWS IAM.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title fade-up">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card fade-up">
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/jonathanchamba" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Control de Drift de Terraform</h3>
+                    <p>Desarrollé una solución automatizada en Python, integrada con GitHub Actions y Slack, diseñada para alertar y corregir automáticamente desviaciones de configuración en infraestructuras gestionadas por Terraform.</p>
+                </div>
+
+                <div class="project-card fade-up" style="transition-delay: 100ms;">
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/jonathanchamba" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Migración a Microservicios</h3>
+                    <p>Lideré la migración completa de microservicios de nivel enterprise hacia un entorno altamente disponible orquestado con Kubernetes, logrando la transición sin afectación a la disponibilidad (Zero-downtime).</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="educacion" class="section">
+        <div class="container">
+            <h2 class="section-title fade-up">Educación & Certificaciones</h2>
+            
+            <div class="edu-flex">
+                <div class="edu-column timeline-content fade-up">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1.5rem;"><i class="fa-solid fa-graduation-cap"></i> Educación Formal</h3>
+                    <h3 style="font-size: 1.1rem; margin-bottom: 0.3rem;">Ingeniería en Sistemas Computacionales e Informática</h3>
+                    <h4>Escuela Politécnica Nacional — Quito, Ecuador</h4>
+                    <span class="mono" style="color: var(--text-muted); font-size: 0.9rem;">Año de Graduación: 2022</span>
+                </div>
+
+                <div class="edu-column timeline-content fade-up" style="transition-delay: 100ms;">
+                    <h3 style="color: var(--primary-green); margin-bottom: 1.5rem;"><i class="fa-solid fa-certificate"></i> Certificaciones & Idiomas</h3>
+                    
+                    <ul class="timeline-list" style="margin-bottom: 1.5rem;">
+                        <li>AWS Certified Solutions Architect – Associate (2023)</li>
+                        <li>Certified Kubernetes Administrator - CKA (2024)</li>
+                    </ul>
+
+                    <h4 style="color: var(--text-light); margin-bottom: 0.5rem; font-weight: 600;">Idiomas:</h4>
+                    <p style="color: var(--text-muted); font-size: 0.95rem;">
+                        Español (Nativo) | Inglés (Avanzado / Nivel C1)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-footer">
+                <a href="https://linkedin.com/in/jonathan-chamba" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/jonathanchamba" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:jonathan.chamba@email.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p>Diseñado y desarrollado para Jonathan Javier Chamba Troya.</p>
+            <p class="mono" style="margin-top: 0.5rem; font-size: 0.8rem; color: #475569;">© 2026 Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="Assets/js/main.js"></script>
+</body>
+</html>
