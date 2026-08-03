@@ -1,6 +1,6 @@
         :root {
             /* Colores Verdes Profesionales y Oscuros */
-            --bg-main: #0a110e;
+            --bg-main: #0f172a;
             --bg-surface: #121e19;
             --bg-card: #182922;
             --primary-green: #10b981;
@@ -162,10 +162,17 @@
         }
 
         .hero-title {
-            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            font-size: clamp(1.5rem, 5vw, 4rem);
             margin-bottom: 1.5rem;
             letter-spacing: -1px;
         }
+
+        .hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-green);
+    margin-bottom: 1rem;
+}
 
         .hero-desc {
             font-size: 1.15rem;
@@ -338,6 +345,7 @@
             margin-bottom: 0.8rem;
             color: var(--text-muted);
             font-size: 0.95rem;
+
         }
 
         .timeline-list li::before {
